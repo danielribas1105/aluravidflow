@@ -40,6 +40,10 @@ body {
     cursor: pointer;
 }
 
+.form__pesquisar{
+    display: flex;
+}
+
 .pesquisar__input {
     padding: 8px;
     border: 2px solid var(--cinza-claro);
@@ -66,6 +70,7 @@ body {
 .cabecalho__audio {
     border: 0px;
     background-color: var(--branco);
+    margin-left: 10px;
 }
 
 .cabecalho__videos {
