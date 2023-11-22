@@ -26,11 +26,17 @@ body {
     text-align: center;
 }
 
-aside{
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+aside {
+    font-family: Roboto, sans-serif;
     background-color: var(--branco);
     font-size: 14px;
     color: var(--cinza-escuro);
+}
+
+hr {
+    margin: 24px 0;
+    border: 1px solid;
+    border-color: var(--azul-medio);
 }
 
 /* CABEÇALHO */
@@ -164,7 +170,7 @@ aside{
 
 /* MENU LATERAL */
 
-.menu__lateral__container{
+.menu__lateral__container {
     position: absolute;
     top: 80px;
     width: 240px;
@@ -172,30 +178,29 @@ aside{
     flex-direction: column;
     justify-content: space-between;
     column-gap: 24px;
-    background-color: rgb(214, 214, 214);
     text-align: start;
     padding: 0 16px;
 
 }
 
-.menu__lateral__box{
+.menu__lateral__box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
-    padding-bottom: 24px;
-    border-bottom: #01080E solid 2px;
 }
 
-.menu__lateral__itens{
-    background-color: #F2F2F2;
-}
-
-.menu__lateral-item{
+.menu__lateral__item {
     display: flex;
-    justify-content: flex-start;
-    gap: 16px;
-    align-items: end;
+    align-items: center;
+}
+
+.menu__lateral-title {
+    font-weight: 600;
+}
+
+.menu__lateral-label {
+    padding-left: 16px;
 }
 
 /* SECAO SUPERIOR */

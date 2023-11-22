@@ -1,90 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/estilos.css">
-        <link rel="stylesheet" href="./css/flexbox.css">
-        <title>VidFlow</title>
-        <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon">
-    </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./css/flexbox.css" />
+    <title>VidFlow</title>
+    <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon" />
+  </head>
+  <body>
     <header>
-        <nav class="cabecalho__container">
-            <div class="logo__item">
-                <img src="/img/VidFlow--Logo-light-mode.png" alt="Logo do VidFlow">
-            </div>
-            <div class="cabecalho__pesquisar__item">
-                <form class="form__pesquisar">
-                    <input type="search" class="pesquisar__input" placeholder="Pesquisar"/>
-                    <img src="/img/topbar/keyboard.png" alt="Ícone de teclado" 
-                        class="pesquisar__input-teclado">
-                    <button class="pesquisar__btn">
-                        <img src="/img/topbar/search.png" alt="Ícone de lupa">
-                    </button>
-                    <button class="cabecalho__audio">
-                        <img src="/img/topbar/Mic.png" alt="Ícone de microfone">
-                    </button>
-                </form>
-            </div>
-            <div class="cabecalho__icones__item">
-                <a href="" class="cabecalho__videos"></a>
-                <a href="" class="cabecalho__apps"></a>
-                <a href="" class="cabecalho__notificacoes"></a>
-                <a href="" class="cabecalho__avatar"></a>
-                <label class="cabecalho__switch">
-                    <input type="checkbox" class="cabecalho__switch-input"/>
-                    <span class="cabecalho__switch-slider"></span>
-                </label>
-            </div>
-        </nav>
+      <nav class="cabecalho__container">
+        <div class="logo__item">
+          <img src="/img/VidFlow--Logo-light-mode.png" alt="Logo do VidFlow" />
+        </div>
+        <div class="cabecalho__pesquisar__item">
+          <form class="form__pesquisar">
+            <input
+              type="search"
+              class="pesquisar__input"
+              placeholder="Pesquisar"
+            />
+            <img
+              src="/img/topbar/keyboard.png"
+              alt="Ícone de teclado"
+              class="pesquisar__input-teclado"
+            />
+            <button class="pesquisar__btn">
+              <img src="/img/topbar/search.png" alt="Ícone de lupa" />
+            </button>
+            <button class="cabecalho__audio">
+              <img src="/img/topbar/Mic.png" alt="Ícone de microfone" />
+            </button>
+          </form>
+        </div>
+        <div class="cabecalho__icones__item">
+          <a href="" class="cabecalho__videos"></a>
+          <a href="" class="cabecalho__apps"></a>
+          <a href="" class="cabecalho__notificacoes"></a>
+          <a href="" class="cabecalho__avatar"></a>
+          <label class="cabecalho__switch">
+            <input type="checkbox" class="cabecalho__switch-input" />
+            <span class="cabecalho__switch-slider"></span>
+          </label>
+        </div>
+      </nav>
     </header>
     <aside class="menu__lateral__container">
-        <div class="menu__lateral__box">
-            <div class="menu__lateral__itens">
-                <a href="" class="menu__lateral-item">
-                    <img src="/img/sidebar/home.png" alt="Ícone home">
-                    <span>Início</span>
-                </a>
-            </div>
-            <div class="menu__lateral__itens">
-                <a href="" class="menu__lateral-item">
-                    <img src="/img/sidebar/explore.png" alt="Ícone explorar">
-                    <span>Explorar</span>
-                </a>
-            </div>
-            <div class="menu__lateral__itens">
-                <a href="" class="menu__lateral-item">
-                    <img src="/img/sidebar/airplay.png" alt="Ícone shorts">
-                    <span>Shorts</span>
-                </a>
-            </div>
-            <div class="menu__lateral__itens">
-                <a href="" class="menu__lateral-item">
-                    <img src="/img/sidebar/subscriptions.png" alt="Ícone inscrições">
-                    <span>Incrições</span>
-                </a>
-            </div>
+      <div class="menu__lateral__box">
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/home.png" alt="Ícone home" />
+          <span class="menu__lateral-label">Início</span>
         </div>
-        <div class="menu__lateral__box">
-            
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/explore.png" alt="Ícone explorar" />
+          <span class="menu__lateral-label">Explorar</span>
         </div>
-        <div class="menu__lateral__box">
-            <h3>INSCRIÇÕES</h3>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/airplay.png" alt="Ícone shorts" />
+          <span class="menu__lateral-label">Shorts</span>
         </div>
-        <div class="menu__lateral__box">
-            <h3>MAIS DA PÁGINA</h3>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/subscriptions.png" alt="Ícone inscrições" />
+          <span class="menu__lateral-label">Incrições</span>
         </div>
+      </div>
+      <hr />
+      <div class="menu__lateral__box">
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/video_library.png" alt="Ícone home" />
+          <span class="menu__lateral-label">Biblioteca</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/history.png" alt="Ícone explorar" />
+          <span class="menu__lateral-label">Histórico</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/history_toggle_off.png" alt="Ícone shorts" />
+          <span class="menu__lateral-label">Assistir mais tarde</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/thumb_up_alt.png" alt="Ícone inscrições" />
+          <span class="menu__lateral-label">Marcados com like</span>
+        </div>
+      </div>
+      <hr />
+      <div class="menu__lateral__box">
+        <label>INSCRIÇÕES</label>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/Avatar_Alura.png" alt="Ícone home" />
+          <span class="menu__lateral-label">Alura</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/Avatar_Gaveta.png" alt="Ícone explorar" />
+          <span class="menu__lateral-label">Gaveta</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/Avatar_Rafa.png" alt="Ícone shorts" />
+          <span class="menu__lateral-label">Rafaella Ballerini</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/Avatar_Atila.png" alt="Ícone inscrições" />
+          <span class="menu__lateral-label">Atila Iamarino</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/Avatar_Souto.png" alt="Ícone explorar" />
+          <span class="menu__lateral-label">Mario Souto</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/Avatar_Jovem_Nerd.png" alt="Ícone shorts" />
+          <span class="menu__lateral-label">Jovem Nerd</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/Avatar_Deschamps.png" alt="Ícone inscrições" />
+          <span class="menu__lateral-label">Felipe Deschamps</span>
+        </div>
+      </div>
+      <hr />
+      <div class="menu__lateral__box">
+        <label>MAIS DA PÁGINA</label>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/ondemand_video.png" alt="Ícone explorar" />
+          <span class="menu__lateral-label">Vídeos Premium</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/movie.png" alt="Ícone shorts" />
+          <span class="menu__lateral-label">Filmes</span>
+        </div>
+        <div class="menu__lateral__item">
+          <img src="/img/sidebar/sports_esports.png" alt="Ícone inscrições" />
+          <span class="menu__lateral-label">Jogos</span>
+        </div>
+      </div>
     </aside>
     <main>
-        <h2>centro</h2> 
+      <h2>centro</h2>
     </main>
-
-
-</body>
+  </body>
 </html>
